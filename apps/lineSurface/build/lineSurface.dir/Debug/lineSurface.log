@@ -1,0 +1,125 @@
+﻿cl : command line warning D9002: ignoring unknown option '-g'
+cl : command line warning D9002: ignoring unknown option '-O3'
+  lineSurface.cpp
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\lineSurface.cpp(60,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+S:\Projects\Code\thirdparty\nitro\src\SurfaceTensorLagrange.ipp(60,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+S:\Projects\Code\thirdparty\nitro\src\SurfaceTensorLagrange.ipp(57): message : while compiling class template member function 'void nitro::Surface<nitro::TENSORLAGRANGE,SurfPoint>::getMonomialcoeffs(std::vector<nitro::input::Point,std::allocator<nitro::input::Point>> &)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\lineSurface.cpp(80): message : see reference to function template instantiation 'void nitro::Surface<nitro::TENSORLAGRANGE,SurfPoint>::getMonomialcoeffs(std::vector<nitro::input::Point,std::allocator<nitro::input::Point>> &)' being compiled
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\lineSurface.cpp(75): message : see reference to class template instantiation 'nitro::Surface<nitro::TENSORLAGRANGE,SurfPoint>' being compiled
+S:\Projects\Code\thirdparty\nitro\src\SurfaceTensorLagrange.ipp(138,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+S:\Projects\Code\thirdparty\nitro\src\SurfaceTensorLagrange.ipp(131): message : while compiling class template member function 'Eigen::VectorXd nitro::Surface<nitro::TENSORLAGRANGE,SurfPoint>::evaluate(Eigen::VectorXd)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\lineSurface.cpp(160): message : see reference to function template instantiation 'Eigen::VectorXd nitro::Surface<nitro::TENSORLAGRANGE,SurfPoint>::evaluate(Eigen::VectorXd)' being compiled
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(142,26): warning C4244: 'initializing': conversion from 'Eigen::SVDBase<Eigen::JacobiSVD<Eigen::Matrix<double,-1,-1,0,-1,-1>,2>>::Index' to 'int', possible loss of data
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(99): message : while compiling class template member function 'void nitro::movingLines::MovingLines<2,SurfaceMonomial>::computeCoefficients(void)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\lineSurface.cpp(99): message : see reference to function template instantiation 'void nitro::movingLines::MovingLines<2,SurfaceMonomial>::computeCoefficients(void)' being compiled
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\lineSurface.cpp(93): message : see reference to class template instantiation 'nitro::movingLines::MovingLines<2,SurfaceMonomial>' being compiled
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(61,21): warning C4244: 'initializing': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(49): message : while compiling class template member function 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::solverReduction(void)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\../../src/LineIntersector.hpp(57): message : see reference to function template instantiation 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::solverReduction(void)' being compiled
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\lineSurface.cpp(117): message : see reference to class template instantiation 'nitro::lineIntersector::LineIntersector<MovingLines,Line>' being compiled
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(61,40): warning C4244: 'initializing': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(80,36): warning C4244: '=': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(80,55): warning C4244: '=': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(214,29): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(182): message : while compiling class template member function 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::solverSquare(void)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\../../src/LineIntersector.hpp(60): message : see reference to function template instantiation 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::solverSquare(void)' being compiled
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(288,29): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(247): message : while compiling class template member function 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::solverSvd(void)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\../../src/LineIntersector.hpp(63): message : see reference to function template instantiation 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::solverSvd(void)' being compiled
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(360,29): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(321): message : while compiling class template member function 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::solverQr(void)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\../../src/LineIntersector.hpp(66): message : see reference to function template instantiation 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::solverQr(void)' being compiled
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(499,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(498): message : while compiling class template member function 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::giveIntersection(std::vector<nitro::lineIntersector::LineIntersector<MovingLines,Line>::IntersectPoint,std::allocator<nitro::lineIntersector::LineIntersector<MovingLines,Line>::IntersectPoint>> &)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\lineSurface.cpp(131): message : see reference to function template instantiation 'void nitro::lineIntersector::LineIntersector<MovingLines,Line>::giveIntersection(std::vector<nitro::lineIntersector::LineIntersector<MovingLines,Line>::IntersectPoint,std::allocator<nitro::lineIntersector::LineIntersector<MovingLines,Line>::IntersectPoint>> &)' being compiled
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\../../src/MovingLines.hpp(167,58): warning C4244: 'return': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\../../src/MovingLines.hpp(167): message : while compiling class template member function 'int nitro::movingLines::MovingLines<2,SurfaceMonomial>::numColsImplicit(void)'
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(24): message : see reference to function template instantiation 'int nitro::movingLines::MovingLines<2,SurfaceMonomial>::numColsImplicit(void)' being compiled
+S:\Projects\Code\thirdparty\nitro\src\SurfaceTensorMonomial.ipp(52,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+S:\Projects\Code\thirdparty\nitro\src\SurfaceTensorMonomial.ipp(45): message : while compiling class template member function 'Eigen::VectorXd nitro::Surface<nitro::TENSORMONOMIAL,SurfPoint>::evaluate(Eigen::VectorXd)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\../../src/MovingLines.hpp(154): message : see reference to function template instantiation 'Eigen::VectorXd nitro::Surface<nitro::TENSORMONOMIAL,SurfPoint>::evaluate(Eigen::VectorXd)' being compiled
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(99): message : while compiling class template member function 'void nitro::movingLines::MovingLines<2,SurfaceMonomial>::computeCoefficients(void)'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\lineSurface.cpp(99): message : see reference to function template instantiation 'void nitro::movingLines::MovingLines<2,SurfaceMonomial>::computeCoefficients(void)' being compiled
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(161,25): warning C4244: 'initializing': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(150): message : while compiling class template member function 'void nitro::movingLines::MovingLines<2,SurfaceMonomial>::inversionSVD(Eigen::MatrixXd,std::vector<Eigen::VectorXd,std::allocator<Eigen::VectorXd>> &,double)'
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(419): message : see reference to function template instantiation 'void nitro::movingLines::MovingLines<2,SurfaceMonomial>::inversionSVD(Eigen::MatrixXd,std::vector<Eigen::VectorXd,std::allocator<Eigen::VectorXd>> &,double)' being compiled
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(250,35): error C2146: syntax error: missing ')' before identifier 'or'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(250,35): error C2065: 'or': undeclared identifier
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(250,38): error C2146: syntax error: missing ';' before identifier 'isDegenerateu'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(250,1): error C2059: syntax error: ')'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(250,66): error C2143: syntax error: missing ';' before 'std::cerr'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(250,52): warning C4553: '==': result of expression not used; did you intend '='?
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(284,21): warning C4244: 'initializing': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<double,-1,-1,0,-1,-1>
+          ]
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(283): message : while compiling class template member function 'void nitro::movingLines::MovingLines<2,SurfaceMonomial>::inversionEigenVec(Eigen::MatrixXd,std::vector<Eigen::VectorXd,std::allocator<Eigen::VectorXd>> &,double)'
+S:\Projects\Code\thirdparty\nitro\src\LineIntersector.ipp(472): message : see reference to function template instantiation 'void nitro::movingLines::MovingLines<2,SurfaceMonomial>::inversionEigenVec(Eigen::MatrixXd,std::vector<Eigen::VectorXd,std::allocator<Eigen::VectorXd>> &,double)' being compiled
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(371,31): error C2146: syntax error: missing ')' before identifier 'or'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(371,31): error C2065: 'or': undeclared identifier
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(371,34): error C2146: syntax error: missing ';' before identifier 'isDegenerateu'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(371,1): error C2059: syntax error: ')'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(372,87): error C2059: syntax error: ';'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(380,24): error C2065: 'tolRank_': undeclared identifier
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(382,15): error C2065: 'thetas1': undeclared identifier
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(382,32): error C2065: 'thetas1': undeclared identifier
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(382,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(382,10): error C2365: 'std::sort': redefinition; previous definition was 'function'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(383,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(383,12): error C3484: syntax error: expected '->' before the return type
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(383,13): error C3613: missing return type after '->' ('int' assumed)
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(383,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(383,13): error C2146: syntax error: missing ';' before identifier 'erase'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(385,15): error C2065: 'thetas2': undeclared identifier
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(385,32): error C2065: 'thetas2': undeclared identifier
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(385,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(385,10): error C2365: 'std::sort': redefinition; previous definition was 'function'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(386,1): error C3927: '->': trailing return type is not allowed after a non-function declarator
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(386,12): error C3484: syntax error: expected '->' before the return type
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(386,13): error C3613: missing return type after '->' ('int' assumed)
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(386,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(386,13): error C2146: syntax error: missing ';' before identifier 'erase'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(389,5): error C2059: syntax error: 'for'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(389,1): error C2143: syntax error: missing ')' before ';'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(389,23): error C2143: syntax error: missing ';' before '<'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(389,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(389,41): error C2059: syntax error: '++'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(389,1): error C2059: syntax error: ')'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(389,1): error C2143: syntax error: missing ';' before '{'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(389,1): error C2447: '{': missing function header (old-style formal list?)
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(402,1): error C2059: syntax error: '}'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(402,1): error C2143: syntax error: missing ';' before '}'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(52,41): error C2065: 'GEOM': undeclared identifier
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(52,25): error C2923: 'nitro::movingLines::MovingLines': 'GEOM' is not a valid template type argument for parameter 'GEOM'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(52): message : see declaration of 'GEOM'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(52,49): error C2955: 'nitro::movingLines::MovingLines': use of class template requires template argument list
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\../../src/MovingLines.hpp(20): message : see declaration of 'nitro::movingLines::MovingLines'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(52,49): error C2027: use of undefined type 'nitro::movingLines::MovingLines'
+S:\Projects\Code\thirdparty\nitro\apps\lineSurface\../../src/MovingLines.hpp(20): message : see declaration of 'nitro::movingLines::MovingLines'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(53,1): error C2143: syntax error: missing ';' before '{'
+S:\Projects\Code\thirdparty\nitro\src\MovingLinesSurface.ipp(53,1): error C2447: '{': missing function header (old-style formal list?)

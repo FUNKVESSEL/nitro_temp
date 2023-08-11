@@ -1,0 +1,15 @@
+# paper example
+curve.obj
+line.obj
+
+# tangent example
+curve.obj
+lineTangent.obj
+
+# self-intersection example
+curveSelf.obj
+lineSelf.obj
+
+# cusp curve example
+curveCusp.obj
+lineCusp.obj

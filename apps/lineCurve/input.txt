@@ -1,0 +1,9 @@
+spaceDim            2
+
+geometryFileName    curveSelf.obj
+
+lineFileName        lineSelf.obj
+
+method              QR
+
+inversion           SVD

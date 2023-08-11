@@ -1,0 +1,24 @@
+# bi-linear example
+surface-TP11.obj
+line-TP11.obj
+
+# bi-cubic example
+surface-TP33.obj
+line-TP33.obj
+
+# bi-cubic degenerate example
+surface-TP33-d.obj
+line-TP33-d.obj
+
+# 3 x 1 degenerate example
+surface-TP31.obj
+line-TP31.obj
+
+# 3 x 1 twisted example
+surface-TP31-twisted.obj
+line-TP31.obj
+
+# 1 x 2 tangent example
+surface-TP12.obj
+line-TP31.obj
+

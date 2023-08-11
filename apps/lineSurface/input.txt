@@ -1,0 +1,12 @@
+spaceDim            3
+
+uDeg                1
+vDeg                2
+
+geometryFileName    surface-TP12.obj
+
+lineFileName        line-TP31.obj
+
+method              SVD
+
+inversion           SVD
